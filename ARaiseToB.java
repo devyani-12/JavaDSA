@@ -7,9 +7,9 @@ public class ARaiseToB {
         int a=sc.nextInt();
         int b=sc.nextInt();
 
-        int ans=1;
+        int answ=1;
         for(int i=1;i<=b;i++){
-            ans=a*ans;
+            answ=a*answ;
         }
         System.out.println(ans);
     }
